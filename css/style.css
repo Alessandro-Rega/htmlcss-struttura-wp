@@ -17,13 +17,24 @@
 
 /* header */
 header{
-    width: 80%;
-    margin: auto;
-    margin-top: 10px;
+    width: 70%;
+    margin: 10px auto;
 }
+
+/* jumbo */
+.jumbo{
+    width: 70%;
+    margin: auto;
+}
+
 
 /* ------- debug ------- */
 .debug header{
     height: 80px;
     background-color: violet;
+}
+
+.debug .jumbo{
+    height: 400px;
+    background-color: gold;
 }
