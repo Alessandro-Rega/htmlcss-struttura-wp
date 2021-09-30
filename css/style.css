@@ -15,18 +15,40 @@
     float: left;
 }
 
-/* header */
-header{
-    width: 70%;
-    margin: 10px auto;
-}
-
-/* jumbo */
-.jumbo{
-    width: 70%;
+.larghezza{
+    width: 60%;
     margin: auto;
 }
 
+/* header */
+#head{
+    margin: 15px auto;
+}
+
+/* jumbo */
+#jumbo{
+
+}
+
+/* main */
+#top-main{
+    margin: 15px 0;
+}
+
+#mid-main{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#mid-main #row-left,
+#mid-main #row-right{
+    width: 30%;
+}
+
+#mid-main #row-mid{
+    width: 38%;
+    margin: 0 1%;
+}
 
 /* ------- debug ------- */
 .debug header{
@@ -37,4 +59,14 @@ header{
 .debug .jumbo{
     height: 400px;
     background-color: gold;
+}
+
+.debug #top-main{
+    height: 60px;
+    background-color: cornflowerblue;
+}
+
+.debug #mid-main div{
+    height: 400px;
+    background-color: cornflowerblue;
 }
