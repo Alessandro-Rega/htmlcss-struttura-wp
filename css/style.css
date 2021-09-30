@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    margin-bottom: 20px;
+}
+
 .clearfix{
     content: "";
     display: table;
@@ -22,13 +26,12 @@
 
 /* header */
 #head{
+    height: 80px;
     margin: 15px auto;
 }
 
 /* jumbo */
-#jumbo{
 
-}
 
 /* main */
 #top-main{
@@ -50,9 +53,13 @@
     margin: 0 1%;
 }
 
+/* footer */
+footer{
+    height: 40px;
+}
+
 /* ------- debug ------- */
 .debug header{
-    height: 80px;
     background-color: violet;
 }
 
@@ -69,4 +76,8 @@
 .debug #mid-main div{
     height: 400px;
     background-color: cornflowerblue;
+}
+
+.debug footer {
+    background-color: purple;
 }
